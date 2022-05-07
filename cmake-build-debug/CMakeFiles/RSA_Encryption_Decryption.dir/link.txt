@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\RSA_Encryption_Decryption.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\RSA_Encryption_Decryption.dir/objects.a @CMakeFiles\RSA_Encryption_Decryption.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\RSA_Encryption_Decryption.dir/objects.a -Wl,--no-whole-archive -o RSA_Encryption_Decryption.exe -Wl,--out-implib,libRSA_Encryption_Decryption.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\RSA_Encryption_Decryption.dir\linklibs.rsp
