@@ -1,7 +1,7 @@
 # RSA algorithm for encryption and decryption. 
 
 ## 1-Key Generation
-* > 1-Choose tow primes (P , Q)  .
+* > 1-Choose two primes (P, Q).
 * >2-Compute n = P * Q  .
 * >3-Compute Euler ℰ = (P-1)(Q-1).
 * >4-Choose e with this conditions 1 < e < ℰ & must be coprime with ℰ .  
