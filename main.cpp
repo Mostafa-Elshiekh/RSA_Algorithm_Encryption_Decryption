@@ -17,15 +17,6 @@ int main()
     //2 random prime numbers
     double p ;
     double q ;
-    
-    double euler= 0;
-    double n=0;
-    double e=0;
-    double d = 0;
-    double Original_Message=0;
-    double Encryption_Message=0;
-    double Decryption_Message=0;
-    double c=0;
 
     double euler= 0;
     double n=0;
@@ -40,19 +31,11 @@ int main()
     cin >> p;
     cout << "\nEnter The Second primary number(Q): ";
     cin >> q;
-    
-     euler= euler_obj.RSA_Calc_Euler(p,q);
-     n=n_obj.RSA_Calc_N(p,q);
-     e=e_obj.RSA_Generate_e(euler);
-     d = d_obj.RSA_Decryption_Calc_d(euler,e);
 
-<<<<<<< HEAD
     euler= euler_obj.RSA_Calc_Euler(p,q);
     n=n_obj.RSA_Calc_N(p,q);
     e=e_obj.RSA_Generate_e(euler);
     d = d_obj.RSA_Decryption_Calc_d(euler,e);
-=======
->>>>>>> c92d83043eb8bb79cd8148084afc72d5e7e9d431
 
 
 
