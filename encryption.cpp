@@ -1,16 +1,5 @@
 #include"encryption.h"
 
-
-void encryption:: RAS_Encryption_Set_Original_Mess(double original_Mess)
-{
-    Original_Mess = original_Mess;
-}
-
-double encryption:: RAS_Encryption_Get_Encreipted_Mess(void)
-{
-    return Encreipted_Mess;
-}
-
 double  encryption::RSA_Encryption(double  original_mess , double n , double e)
 {
     Encreipted_Mess =pow(original_mess,e);
@@ -18,15 +7,6 @@ double  encryption::RSA_Encryption(double  original_mess , double n , double e)
     return Encreipted_Mess;
 }
 
-double Euler::RAS_Encryption_Get_Euler(void)
-{
-    return Euler;
-}
-
-void Euler::RAS_Encryption_Set_Euler(double EULER)
-{
-    Euler = EULER;
-}
 
 double Euler::RSA_Calc_Euler(double p, double q)
 {
@@ -38,16 +18,6 @@ int n::RSA_Calc_N(double p, double q)
 {
     double n1 = p * q;
     return n1;
-}
-
-void n::RAS_Encryption_Set_n(double n1)
-{
-    n=n1;
-}
-
-void e::RAS_Encryption_Set_e(double E)
-{
-  e=E;
 }
 
 int gcd(int a, int b)

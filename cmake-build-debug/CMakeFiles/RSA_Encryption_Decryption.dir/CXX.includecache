@@ -14,9 +14,23 @@ C:/Users/musta/CLionProjects/RSA_Encryption_Decryption/decryption.h
 encryption.h
 C:/Users/musta/CLionProjects/RSA_Encryption_Decryption/encryption.h
 
+C:/Users/musta/CLionProjects/RSA_Encryption_Decryption/encryption.cpp
+encryption.h
+C:/Users/musta/CLionProjects/RSA_Encryption_Decryption/encryption.h
+
 C:/Users/musta/CLionProjects/RSA_Encryption_Decryption/encryption.h
 iostream
 -
 cmath
 -
+
+C:/Users/musta/CLionProjects/RSA_Encryption_Decryption/main.cpp
+iostream
+-
+math.h
+-
+encryption.h
+C:/Users/musta/CLionProjects/RSA_Encryption_Decryption/encryption.h
+decryption.h
+C:/Users/musta/CLionProjects/RSA_Encryption_Decryption/decryption.h
 
