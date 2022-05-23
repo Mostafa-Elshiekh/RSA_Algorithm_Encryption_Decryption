@@ -38,7 +38,7 @@ double e::RSA_Generate_e(double euler)
     //public key
     //e stands for encrypt
     double temp;
-     e=7;
+     e=2;
     //for checking that 1 < e < phi(n) and gcd(e, phi(n)) = 1; i.e., e and phi(n) are coprime.
     while(e<euler) {
         temp = gcd(e,euler);
